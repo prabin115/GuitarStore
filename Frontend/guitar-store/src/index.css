@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #222831;
+    /* background-color: #F6F5F2; */
+}
+
+.navcolor {
+    background-color: #31363F;
+}
+
+.subnav {
+    /* background-color: #35374B; */
+    background-color: #222831;
+}
+
+.cart-btn {
+    background-color: #31363F;
+    color: #76ABAE;
+}
+
+.filter {
+    background-color: #31363F;
+    color: white;
+}
+
+.filter-bg {
+    background-color: #222831;
+    /* background-color: #F6F5F2; */
+}
+
