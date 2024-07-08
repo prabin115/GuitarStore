@@ -1,0 +1,80 @@
+Guitar Api
+
+{
+    "brand": "Fender",
+    "name": "Stratocaster",
+    "price": 78000,
+    "type": "ELECTRIC",
+    "description": "The inspiring sound of a Stratocaster is one of the foundations of Fender. Featuring this classic sound - bell-like high end, punchy mids and robust low end, combined with crystal-clear articulation - the sonically flexible Player Stratocaster HSS is packed with authentic Fender feel and style. It's ready to serve your musical vision, it's versatile enough to handle any style of music and it's the perfect platform for creating your own sound.",
+    "highlights": [
+        "Alder body with gloss finish",
+        "One Player Series humbucking bridge pickup; two Player Series single-coil Stratocaster middle and neck pickups",
+        "Modern C-shaped neck profile"
+    ],
+    "imageUrl": "default"
+}
+{
+    "brand": "Fender",
+    "name": "Telecaster",
+    "price": 82930,
+    "type": "ELECTRIC",
+    "description": "The American Professional II Telecaster® Left-Hand draws from more than seventy years of innovation, inspiration and evolution to meet the demands of today's working player.",
+    "highlights": [
+        "Two V-Mod II single-coil Telecaster pickups",
+        "New top-load/string-through Telecaster bridge with compensated brass bullet saddles",
+        "Bone nut; 22 narrow-tall frets for easy bending"
+    ],
+    "imageUrl": "default"
+}
+{
+    "brand": "Yamaha",
+    "name": "CSF1M Vintage",
+    "price": 41990,
+    "type": "ACOUSTIC",
+    "description": "The CSF, compact folk Guitar, features solid sitka spruce top with newly designed scalloped bracing and mahogany back and sides. Piezo pickup ensures solid plugged-in performance.",
+    "highlights": [
+        "COMPACT BODY, FULL-SIZE SOUND",
+        "PIEZO PICKUPS FOR GREAT LIVE PERFORMANCE",
+        "NEW SCALLOPED BRACING FOR LOUDER, RICHER ACOUSTIC SOUND & FULL-BODIED RESONANCE"
+    ],
+    "imageUrl": "default"
+}
+{
+    "brand": "Yamaha",
+    "name": "F280",
+    "price": 7990,
+    "type": "ACOUSTIC",
+    "description": "Yamaha Acoustic guitars are a testimony to the long-lasting legacy of handcrafted guitars that give people a platform to make waves. They are affordable, reliable and most of all; desirable.",
+    "highlights": [
+        "Comfortable playability for beginners",
+        "High durability and stability proven by Yamaha's quality standard",
+        "Made in Yamaha Music India factory"
+    ],
+    "imageUrl": "default"
+}
+{
+    "brand": "Yamaha",
+    "name": "TRBX174",
+    "price": 21990,
+    "type": "BASS",
+    "description": "The TRBX174 represents a price breakthrough for the TRBX range, yet the quality is everything you'd expect from a Yamaha bass.",
+    "highlights": [
+        "MAHOGANY BODY WITH GLOSS FINISH",
+        "ALDER TUNERS: COVERED BRIDGE: VINTAGE STYLE PICKUPS: SPLIT COIL X 1, SINGLE COIL X 1"
+    ],
+    "imageUrl": "default"
+}
+{
+    "brand": "Fender",
+    "name": "Squier Affinity Jazz Bass",
+    "price": 30240,
+    "type": "BASS",
+    "description": "A superb gateway into the time-honored Fender® family, the Squier® Affinity Series® Jazz Bass® delivers legendary design and quintessential tone for today’s aspiring bassist. This J Bass® features several player-friendly refinements such as a thin and lightweight body, a slim and comfortable “C”-shaped neck profile and vintage-style open-gear tuning machines for smooth, accurate tuning. Loaded with two Squier single-coil J Bass pickups for a wide variety of tones, this model is ready to help lay the foundation for any player at any stage.",
+    "highlights": [
+        "Thin and lightweight body",
+        "Slim “C”-shaped neck profile",
+        "Squier single-coil pickups",
+        "Open-gear tuning machines"
+    ],
+    "imageUrl": "default"
+}
