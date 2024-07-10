@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  web:
+    container_name: reactContainer
+    build: .
+    ports:
+      - 3000:80
+    networks:
+      - bootapp
+networks:
+  bootapp:
+    external:
+      name: bootapp
