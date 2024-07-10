@@ -12,7 +12,7 @@ services:
       - bootapp
 
   appservice:
-    image: guitar-app
+    image: guitar-springboot-app
     depends_on:
       - dbservice
     environment:
