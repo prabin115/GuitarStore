@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
+import { toast } from 'react-toastify';
 
 const Login = () => {
 
@@ -17,7 +18,13 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        login(formData);
+
+        const {username, password} = formData;
+        if(username && password){
+            login(formData);
+        } else {
+            toast.error("Fields can not be empty");
+        }
     }
 
   return (

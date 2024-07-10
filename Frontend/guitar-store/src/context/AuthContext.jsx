@@ -29,8 +29,7 @@ export const AuthProvider = ({children}) => {
 
             if(!response.ok){
                 console.log("Network response was not ok");
-                toast.error("User does not exist");
-                navigate("/signup");
+                toast.error("Incorrect Fields");
                 return;
             }
 
@@ -48,7 +47,6 @@ export const AuthProvider = ({children}) => {
             navigate("/")
         } catch (error) {
             console.log(error);
-            navigate("/signup")
         }
     }
 

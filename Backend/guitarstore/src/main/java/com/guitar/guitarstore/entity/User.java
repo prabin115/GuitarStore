@@ -11,6 +11,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotBlank;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -27,11 +28,14 @@ public class User implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+    @NotBlank(message = "User name is mandatory")
     private String username;
 
+    @NotBlank(message = "Email is mandatory")
     @Column(unique = true)
     private String email;
 
+    @NotBlank(message = "Password is mandatory")
     @Getter(AccessLevel.NONE)
     private String password;
 

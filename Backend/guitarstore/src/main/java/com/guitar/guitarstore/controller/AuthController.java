@@ -18,6 +18,8 @@ import com.guitar.guitarstore.payload.AuthRequest;
 import com.guitar.guitarstore.payload.AuthResponse;
 import com.guitar.guitarstore.services.JwtService;
 
+import jakarta.validation.Valid;
+
 @CrossOrigin
 @RestController
 @RequestMapping("/auth")
@@ -36,7 +38,7 @@ public class AuthController {
     private JwtService jwtService;
 
     @PostMapping("/register")
-    public ResponseEntity<String> registerUser(@RequestBody User user) {
+    public ResponseEntity<String> registerUser(@Valid @RequestBody User user) {
         // Check if username is already taken
         if (userRepository.findByEmail(user.getEmail()).isPresent()) {
             return ResponseEntity.badRequest().body("Email already taken!");
