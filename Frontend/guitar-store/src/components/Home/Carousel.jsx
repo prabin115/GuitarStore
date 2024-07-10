@@ -21,9 +21,9 @@ const Carousel = () => {
   return (
     <>
         <div className='flex justify-center'>
-            <div id="default-carousel" className="relative h-96 w-full" data-carousel="slide">
+            <div id="default-carousel" className="h-96 w-full" data-carousel="slide">
             {/* Carousel wrapper */}
-                <div className="relative overflow-hidden md:h-96">
+                <div className="overflow-hidden md:h-96">
                     {/* Item 1 */}
                     <div onClick={()=>handleNavigate("Electric Guitars")} className={`transition duration-700 ease-in-out ${currentIndex === 0 ? '' : 'hidden'} cursor-pointer`} data-carousel-item>
                         <img src="/photos/guitarbg1.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>

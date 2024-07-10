@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
+import { toast } from 'react-toastify';
 
 const Registration = () => {
 
@@ -12,19 +13,21 @@ const Registration = () => {
         password: ''
     });
 
-    // const [formData, setFormData] = useState({
-    //     username: 'dummy',
-    //     email: 'dummy@gmail.com',
-    //     password: '123'
-    // });
-
     const handleChange = (e) => {
         setFormData({...formData, [e.target.name]: e.target.value});
     }
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        register(formData);
+
+        const {username, email, password} = formData;
+        if(username && email && password){
+            register(formData);
+        } else {
+            console.log("empty fields")
+            toast.error('All fields are required!');
+        }
+
     }
 
   return (
